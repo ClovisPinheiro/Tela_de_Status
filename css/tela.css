@@ -1,0 +1,43 @@
+html {
+    background-color: rgb(17, 2, 2);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: azure;
+    color: rgb(7, 6, 6);
+    padding: 10px 20px;
+    margin: 1% 10% 1% 10%;
+    text-align-last: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo-left, .logo-right {
+    width: 100px;
+}
+
+.logo-left img, .logo-right img {
+    max-width: 100px;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 1% 10% 1% 10%;    
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: bisque;
+}
+
+td {
+    background-color: azure;
+}

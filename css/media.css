@@ -1,0 +1,15 @@
+@media (min-width: 768px){
+    .logo-left {
+        display: block;
+        width: 100px;
+    }
+
+    .logo-left img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .header {
+        margin-right: 10px;
+    }
+}
